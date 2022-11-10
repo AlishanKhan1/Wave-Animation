@@ -6,21 +6,24 @@
 
 body{
     background-color: black;
+    z-index: ;
 }
 
 .bar-container{
-    height: 120px;
-    width: 140px;
+    display: flex;
+    justify-content: center;
+    height: 725.60px;
+    width: 1421.60px;
     margin: 20px;
     position: relative;
     display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 .bar{
-    width: 10px;
-    height: 70px;
+    width: 40px;
+    height: 1400px;
     background: white;
     border-radius: 10px;
     animation: load 1.6s ease-in-out infinite;
@@ -32,7 +35,7 @@ body{
     }
 
     50%{
-        height: 60px;
+        height: 300px;
     }
 }
 
@@ -64,4 +67,127 @@ body{
 .bar-container .bar:nth-child(6){
     background: lightblue;
     animation-delay: .2s;
+}
+
+.bar-container .bar:nth-child(8){
+    background: red;
+    animation-delay: 1.2s;
+}
+
+.bar-container .bar:nth-child(9){
+    background: yellow;
+    animation-delay: 1s;
+}
+
+.bar-container .bar:nth-child(10){
+    background: green;
+    animation-delay: .8s;
+}
+
+.bar-container .bar:nth-child(11){
+    background: blueviolet;
+    animation-delay: .6s;
+}
+
+.bar-container .bar:nth-child(12){
+    background: mediumspringgreen;
+    animation-delay: .4s;
+}
+
+.bar-container .bar:nth-child(13){
+    background: lightblue;
+    animation-delay: .2s;
+}
+
+.bar-container .bar:nth-child(14){
+    background: red;
+    animation-delay: 1.2s;
+}
+
+.bar-container .bar:nth-child(15){
+    background: yellow;
+    animation-delay: 1s;
+}
+
+.bar-container .bar:nth-child(16){
+    background: green;
+    animation-delay: .8s;
+}
+
+.bar-container .bar:nth-child(17){
+    background: blueviolet;
+    animation-delay: .6s;
+}
+
+.bar-container .bar:nth-child(18){
+    background: mediumspringgreen;
+    animation-delay: .4s;
+}
+
+.bar-container .bar:nth-child(19){
+    background: lightblue;
+    animation-delay: .2s;
+}
+
+.bar-container .bar:nth-child(20){
+    background: red;
+    animation-delay: 1.2s;
+}
+
+.bar-container .bar:nth-child(21){
+    background: yellow;
+    animation-delay: 1s;
+}
+
+.bar-container .bar:nth-child(22){
+    background: green;
+    animation-delay: .8s;
+}
+
+.bar-container .bar:nth-child(23){
+    background: blueviolet;
+    animation-delay: .6s;
+}
+
+.bar-container .bar:nth-child(24){
+    background: mediumspringgreen;
+    animation-delay: .4s;
+}
+
+.bar-container .bar:nth-child(25){
+    background: lightblue;
+    animation-delay: .2s;
+}
+.bar-container .bar:nth-child(26){
+    background: red;
+    animation-delay: 1.2s;
+}
+
+.bar-container .bar:nth-child(27){
+    background: yellow;
+    animation-delay: 1s;
+}
+
+.bar-container .bar:nth-child(28){
+    background: green;
+    animation-delay: .8s;
+}
+
+.bar-container .bar:nth-child(29){
+    background: blueviolet;
+    animation-delay: .6s;
+}
+
+.bar-container .bar:nth-child(30){
+    background: mediumspringgreen;
+    animation-delay: .4s;
+}
+
+.bar-container .bar:nth-child(31){
+    background: lightblue;
+    animation-delay: .2s;
+}
+.bar-container .bar:nth-child(32){
+    background: red;
+    animation-delay: 1.2s;
 }
