@@ -6,14 +6,14 @@
 
 body{
     background-color: black;
-    z-index: ;
+    overflow: hidden;
 }
 
 .bar-container{
     display: flex;
     justify-content: center;
-    height: 725.60px;
-    width: 1421.60px;
+    height: 100%;
+    width: 100%;
     margin: 20px;
     position: relative;
     display: inline-flex;
@@ -22,172 +22,174 @@ body{
 }
 
 .bar{
-    width: 40px;
-    height: 1400px;
+    width: 100%;
+    height: 100%;
     background: white;
     border-radius: 10px;
-    animation: load 1.6s ease-in-out infinite;
+    animation: load 6s ease-in-out infinite;
+    /* opacity: 0.5; */
 }
 
 @keyframes load{
     0%, 100% {
-        height: 2px;
+        height: 20px;
     }
 
     50%{
-        height: 300px;
+        height: 700px;
     }
 }
 
 .bar-container .bar:nth-child(1){
     background: red;
-    animation-delay: 1.2s;
+    animation-delay: 7s;
 }
 
 .bar-container .bar:nth-child(2){
     background: yellow;
-    animation-delay: 1s;
+    animation-delay: 6.8s;
 }
 
 .bar-container .bar:nth-child(3){
     background: green;
-    animation-delay: .8s;
+    animation-delay: 6.4s;
 }
 
 .bar-container .bar:nth-child(4){
     background: blueviolet;
-    animation-delay: .6s;
+    animation-delay: 6.2s;
 }
 
 .bar-container .bar:nth-child(5){
     background: mediumspringgreen;
-    animation-delay: .4s;
+    animation-delay: 6s;
 }
 
 .bar-container .bar:nth-child(6){
     background: lightblue;
-    animation-delay: .2s;
+    animation-delay: 5.8s;
+}
+
+.bar-container .bar:nth-child(7){
+    background: red;
+    animation-delay: 5.6s;
 }
 
 .bar-container .bar:nth-child(8){
-    background: red;
-    animation-delay: 1.2s;
+    background: yellow;
+    animation-delay: 5.4s;
 }
 
 .bar-container .bar:nth-child(9){
-    background: yellow;
-    animation-delay: 1s;
+    background: green;
+    animation-delay: 5.2s;
 }
 
 .bar-container .bar:nth-child(10){
-    background: green;
-    animation-delay: .8s;
+    background: blueviolet;
+    animation-delay: 5s;
 }
 
 .bar-container .bar:nth-child(11){
-    background: blueviolet;
-    animation-delay: .6s;
+    background: mediumspringgreen;
+    animation-delay: 4.8s;
 }
 
 .bar-container .bar:nth-child(12){
-    background: mediumspringgreen;
-    animation-delay: .4s;
+    background: lightblue;
+    animation-delay: 4.6s;
 }
 
 .bar-container .bar:nth-child(13){
-    background: lightblue;
-    animation-delay: .2s;
+    background: red;
+    animation-delay: 4.4s;
 }
 
 .bar-container .bar:nth-child(14){
-    background: red;
-    animation-delay: 1.2s;
+    background: yellow;
+    animation-delay: 4.2s;
 }
 
 .bar-container .bar:nth-child(15){
-    background: yellow;
-    animation-delay: 1s;
+    background: green;
+    animation-delay: 4s;
 }
 
 .bar-container .bar:nth-child(16){
-    background: green;
-    animation-delay: .8s;
+    background: blueviolet;
+    animation-delay: 3.8s;
 }
 
 .bar-container .bar:nth-child(17){
-    background: blueviolet;
-    animation-delay: .6s;
+    background: mediumspringgreen;
+    animation-delay: 3.6s;
 }
 
 .bar-container .bar:nth-child(18){
-    background: mediumspringgreen;
-    animation-delay: .4s;
+    background: lightblue;
+    animation-delay: 3.4s;
 }
 
 .bar-container .bar:nth-child(19){
-    background: lightblue;
-    animation-delay: .2s;
+    background: red;
+    animation-delay: 3.2s;
 }
 
 .bar-container .bar:nth-child(20){
-    background: red;
-    animation-delay: 1.2s;
+    background: yellow;
+    animation-delay: 3.0s;
 }
 
 .bar-container .bar:nth-child(21){
-    background: yellow;
-    animation-delay: 1s;
+    background: green;
+    animation-delay: 2.8s;
 }
 
 .bar-container .bar:nth-child(22){
-    background: green;
-    animation-delay: .8s;
+    background: blueviolet;
+    animation-delay: 2.6s;
 }
 
 .bar-container .bar:nth-child(23){
-    background: blueviolet;
-    animation-delay: .6s;
+    background: mediumspringgreen;
+    animation-delay: 2.4s;
 }
 
 .bar-container .bar:nth-child(24){
-    background: mediumspringgreen;
-    animation-delay: .4s;
+    background: lightblue;
+    animation-delay: 2.2s;
+}
+.bar-container .bar:nth-child(25){
+    background: red;
+    animation-delay: 2s;
 }
 
-.bar-container .bar:nth-child(25){
-    background: lightblue;
-    animation-delay: .2s;
-}
 .bar-container .bar:nth-child(26){
-    background: red;
-    animation-delay: 1.2s;
+    background: yellow;
+    animation-delay: 1.8s;
 }
 
 .bar-container .bar:nth-child(27){
-    background: yellow;
-    animation-delay: 1s;
+    background: green;
+    animation-delay: 1.6s;
 }
 
 .bar-container .bar:nth-child(28){
-    background: green;
-    animation-delay: .8s;
+    background: blueviolet;
+    animation-delay: 1.4s;
 }
 
 .bar-container .bar:nth-child(29){
-    background: blueviolet;
-    animation-delay: .6s;
+    background: mediumspringgreen;
+    animation-delay: 1.2s;
 }
 
 .bar-container .bar:nth-child(30){
-    background: mediumspringgreen;
-    animation-delay: .4s;
+    background: lightblue;
+    animation-delay: 1s;
 }
 
 .bar-container .bar:nth-child(31){
-    background: lightblue;
-    animation-delay: .2s;
-}
-.bar-container .bar:nth-child(32){
     background: red;
-    animation-delay: 1.2s;
+    animation-delay: .8s;
 }
